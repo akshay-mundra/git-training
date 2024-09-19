@@ -6,3 +6,15 @@ branches
 - bugfix -> to fix non critical bugs - from stage to stage
 - Stage -> from main at start then merged in realease branch
 - release -> from main - stage gets merged - then merged to main (production)
+
+
+
+If you push a unwanted file/folder to git and github then to remote it we use the following 
+1. Add it to gitignore
+2. delete that file from git repo
+	-> git rm -r --cached <file/folder name or path>
+3. create a new commit and push to the origin
+
+
+how i find this reource -> Searched  - How to remove node_module from git and github
+resource : https://gist.github.com/apieceofbart/4ffa7aaee435ea2875b6d9c9395461ae
