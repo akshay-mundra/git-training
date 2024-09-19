@@ -1,0 +1,8 @@
+base branch - main / master / prod
+
+branches 
+- hotfix -> from main to main (to resolve critical fix)
+- feature -> to cteate a new feature - from state to state
+- bugfix -> to fix non critical bugs - from stage to stage
+- Stage -> from main at start then merged in realease branch
+- release -> from main - stage gets merged - then merged to main (production)
